@@ -42,5 +42,22 @@
         <img src="./img/ring4.webp" alt="img4" class="product-img" onclick="Imageshow(4)">
     </div>
 
+    <script>
+        function Imageshow(num){
+            const mainImg = document.getElementById('main-img');
+            if(num==1){
+                mainImg.src = "./img/ring1.webp";
+            }
+            else if (num==2){
+                mainImg.src = "./img/ring2.webp";
+            }
+            else if (num==3){
+                mainImg.src = "./img/ring3.webp";
+            }
+            else if (num==4){
+                mainImg.src = "./img/ring4.webp";
+            }
+        }
+    </script>
 </body>
 </html>
